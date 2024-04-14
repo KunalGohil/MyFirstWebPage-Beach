@@ -1,0 +1,449 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}   
+body{
+    background-image: url(b2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+/*    background-image: url(b2.jpg);*/
+    height:60px;;
+    width: 100%;
+    background-color: black;
+/*    max-height: 100px;*/
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    background-size: cover; 
+    position: absolute;
+}
+.navbar{
+    position: relative;
+    position: absolute;
+    left: 10px;
+    font-size: 30px;
+/*    background-color: black;*/
+/*    width: 1330px;*/
+    font-family:Rockwell;
+    color: white;
+    animation: welcome;
+    animation-duration: .9s;
+    animation-iteration-count: infinite;
+}
+@keyframes welcome{
+   
+}
+#input1{
+    position: relative;
+    position: absolute;
+    left: 600px;
+    top: 12px;
+    border-radius: 5px;
+    padding:10px 220px 10px 0px;  
+}
+#input1[type=text]:focus{
+    padding-right: 290px;
+    transition: .6s;
+    transition-delay: .1s;
+    border-radius: 20px;
+}
+.login{
+    position: absolute;
+    position: relative;
+    top: 10px;
+
+}
+#a1{
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+#loginf{
+    position: absolute;
+    position: relative;
+    top: 8px;
+    border-radius: 10px;
+}
+#btn{
+    position: absolute;
+    background-color:blue;
+    left: 1200px;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    border-radius: 20px;
+    padding: 10px 40px 10px 40px ;
+}
+#btn:hover{
+    transition: .5s;
+    background-color: cyan;
+    color: black;
+}
+#p1{
+    position: absolute;
+    position: relative;
+    top: 160px;
+    margin-left: 340px;
+    font-size: 90px;
+    animation: abd;
+    animation-delay: .10s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes abd{
+    0%{
+        color: white;
+    }
+}
+.navi{
+    position: absolute;
+    position: relative;
+    top: 20px;
+   margin-left: 290px;
+}
+#aa{
+    position: absolute;
+    position: relative;
+    padding-left: 20px;
+    color: white;
+text-decoration: none;
+}
+#aa:hover{
+    color: deepskyblue;
+    transition: .2s;
+    transition-delay: .2s;
+    
+}
+h3{
+    position: absolute;
+    position: relative;
+    top: 170px;
+    margin-left: 450px;
+    color: white;
+}
+
+                     /*<p> cards </p>*/
+
+.cards{
+    position: relative;
+    display:inline-block;
+    margin-top: 190px;
+    height: 230px;
+    padding-left: 10px;
+    margin-left: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-transform: uppercase;
+}
+.cards:hover{
+    box-shadow: 10px 10px 10px black;
+    transition: .3s;
+        height: 220px;
+
+    transition-delay: .s;
+}
+.image{
+    position: relative;
+    width: 300px;
+    border-top-right-radius: 20px;
+/*    display: inline-block;*/
+}
+.des{
+    position: relative;
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+        border-bottom-left-radius: 20px;
+
+}
+
+                     /*<p> cards 1st </p>*/
+
+.cards1{
+    position: absolute;
+    position: relative;
+    top: 60px;
+/*    left: 6px;*/
+    border-top-left-radius: 10px;
+/*    margin-top: 30px;*/
+    margin-left: 10px;
+        padding-left: 10px;
+
+    display: inline-block;
+}
+.cards1:hover{
+    box-shadow: 10px 9px 9px black;
+    transition: .3s;
+/*        height: 170px;*/
+/*    border-radius: 20px;*/
+
+    transition-delay: .s;
+}
+
+.image1{
+        width: 300px;
+    border-top-right-radius: 20px;
+
+}
+.des1{
+     position: relative;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+
+}
+                     /*<p> cards 2st </p>*/
+
+
+.cards2{
+    position: absolute;
+    position: relative;
+    top: 140px;
+    left: 6px;
+/*    margin-top: 30px;*/
+    margin-left: 10px;
+        padding-left: 10px;
+
+    display: inline-block;
+}
+.cards2:hover{
+    box-shadow: 10px 9px 9px black;
+    transition: .3s;
+        height: 200px;
+/*position: absolute;*/
+    transition-delay: .s;
+}
+
+.image2{
+        width: 300px;
+    border-top-right-radius: 20px;
+
+}
+.des2{
+     position: relative;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+
+}
+
+                     /*<p> cards 3st </p>*/
+
+.cards3{
+    position: absolute;
+    position: relative;
+    top: 220px;
+    left: 6px;
+/*    margin-top: 30px;*/
+    margin-left: 10px;
+        padding-left: 10px;
+
+    display: inline-block;
+}
+.cards3:hover{
+    box-shadow: 10px 9px 9px black;
+    transition: .3s;
+    border-radius: 20px;
+    height: 230px;
+    transition-delay: .s;
+}
+
+
+.image3{
+        width: 300px;
+    border-top-right-radius: 20px;
+
+}
+
+.des3{
+     position: relative;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+
+}
+.form22{
+    position: absolute;
+    position: relative;
+    top:1500px;
+    left: 500px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    background-image: url(black.avif);
+}
+#ll{
+ color: white;
+    
+    font-size: 20px;
+    font-family: Rockwell;
+}
+#inputl{
+    padding: 10px;
+    width: 390px;
+    border-radius: 5px;
+}
+#inputl:focus{
+    border-radius: 20px;
+    transition: .5s;
+}
+#inputl:hover{
+    box-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 100px #03e9f4;
+}
+#h21{
+    border: 2px solid  black;
+    animation: krunal;
+    animation-delay: .10s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes krunal   {
+    0%{
+        color: white;
+    }
+    50% 100%{
+        color: blue;
+    }
+}
+#botonl{
+    position: absolute;
+    position: relative;
+    color: white;
+    left: 100px;
+    background-color: black;
+    font-family: sans-serifsnas;
+    font-size: 20px;
+/*    background-color: transparent;*/
+    padding: 10px 40px 10px 40px  ;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+#botonl:hover{
+    box-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 100px #03e9f4;
+    background-color: #03e9f4;
+    transition: .5s;
+    color: black;
+    font-weight: 700;
+}
+.forgot{
+    color: white;
+    position: absolute;
+    position: relative;
+    left: 130px;
+}
+.fotter{
+    height: 300px;
+    position: absolute;
+    position: relative;
+    background-color: black;
+    top: 1540px;
+    
+}
+.about{
+    position: absolute;
+    position: relative;
+    top: 20px;
+    font-family: sans-serif;
+    margin-left: 100px;
+    color: white; 
+}
+.h11{
+    position: absolute;
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+}
+.p11{
+    position: absolute;
+    position: relative;
+    padding-top: 30px;
+    cursor: pointer;
+    opacity: 50%;
+    font-family: sans-serif;
+    
+}
+.get{
+    
+    position: absolute;
+    position: relative;
+    bottom:200px;
+    cursor: pointer;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 400px;
+}
+.h21{
+    font-size: 20px;
+    
+}
+.p12{
+    position: absolute;
+    position: relative;
+    padding-top: 20px;
+    color: grey;
+    cursor: pointer;
+}
+.online{
+    position: absolute;
+    position: relative;
+    bottom: 410px;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin-left: 680px;
+    color: white;
+    cursor: pointer;
+}
+.p23{
+    position: absolute;
+    position: relative;
+    padding-top: 20px;
+    color: grey;
+    cursor: pointer;
+    font-size: 16px;
+}
+.follow{
+    position: absolute;
+    position: relative;
+    bottom: 620px;
+   color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left: 1100px;
+}
+.inputtype{
+    position: absolute;
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.inputtype:hover{
+    transition:.5s;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white,0 0 20px white,0 0 40px white ;
+}
